@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "npx nodemon --exec babel-node src/index.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/node": "^7.16.0",
+    "@babel/preset-env": "^7.16.0"
+  },
+  "dependencies": {
+    "apollo": "^2.33.9",
+    "apollo-server": "^3.5.0",
+    "graphql": "^16.0.1",
+    "merge-graphql-schemas": "^1.7.8",
+    "mongoose": "^6.0.13",
+    "server": "^1.0.36"
+  }
+}
